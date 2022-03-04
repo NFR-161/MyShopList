@@ -3,8 +3,8 @@ package com.exampleone.myshoplist.data
 import com.exampleone.myshoplist.domain.ShopItem
 import com.exampleone.myshoplist.domain.ShopListRepository
 
-object ShopListRepositoryImpl {
-    object ShopListRepositoryImpl : ShopListRepository {
+
+object ShopListRepositoryImpl : ShopListRepository {
 
         private val shopList = mutableListOf<ShopItem>()
 
